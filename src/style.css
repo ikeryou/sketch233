@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body > div {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+body > div > div {
+}
+
+.link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 12px;
+  color: inherit;
+  text-decoration: underline;
+  color: #FFF;
+  background-color: #000;
+}
